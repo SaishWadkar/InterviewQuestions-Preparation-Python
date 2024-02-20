@@ -54,7 +54,7 @@ print(f"Counter : {counter}")
 for i,j in enumerate(s):
     if j in ['a','e','i','o','u']:
         s2.insert(i,vowels[counter])
-        s2.pop(i+1)
+        s2.pop(i+1)    # remove old char after new char insertion
         counter=counter-1
 
 print(f"Output : {s2}")
