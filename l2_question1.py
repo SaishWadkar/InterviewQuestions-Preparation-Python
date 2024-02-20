@@ -38,7 +38,7 @@ print("\n Output")
 print(s2[index:])
 print(s1[len(s1)-index])
 
-if s2[index:] == s1[:len(s1)-index] and s2[:index] == s1[len(s1)-index:]:
+if s2[index:] == s1[:len(s1)-index] and s2[:index] == s1[len(s1)-index:]:    # 2nd condition added
     print(f"Rotating by {index} rotation clockwise")
 else:
     print("Not rotating")
